@@ -1,0 +1,13 @@
+.root {
+  background: red;
+}
+:global(.text) {
+  color: green;
+}
+:local(.text_bg) {
+  background-color: blue;
+}
+.child {
+  composes: base from './base.css';
+  color: white;
+}
