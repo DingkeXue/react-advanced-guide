@@ -1,10 +1,12 @@
 import './App.css';
-import Form from './examples/refs/fowardRef3'
+// import Form from './examples/refs/fowardRef3'
+import Index from './examples/provider'
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      {/* <Form /> */}
+      <Index></Index>
     </div>
   );
 }
